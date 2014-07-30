@@ -1,0 +1,28 @@
+{
+  "name": "cleanupdir",
+  "description": "clean up directory.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "git://github.com/kumatch/cleanupdir.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require intelli-espower-loader --reporter spec test/**/*.test.js"
+  },
+  "directories": {
+    "test": "test/"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "glob": "^4.0.5",
+    "rimraf": "^2.2.8"
+  },
+  "devDependencies": {
+    "espower-loader": "^0.7.1",
+    "intelli-espower-loader": "^0.2.0",
+    "mkdirp": "^0.5.0",
+    "mocha": "^1.20.1",
+    "power-assert": "^0.7.2",
+    "temp": "^0.8.0"
+  }
+}
