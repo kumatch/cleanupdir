@@ -3,6 +3,7 @@ cleanupdir
 
 clean-up directory.
 
+[![Build Status](https://travis-ci.org/kumatch/cleanupdir.png?branch=master)](https://travis-ci.org/kumatch/cleanupdir)
 
 
 Install
